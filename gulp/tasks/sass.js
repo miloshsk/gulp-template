@@ -2,9 +2,7 @@ module.exports = function() {
 	$.gulp.task('sass', function() {
 	return $.gulp.src('src/sass/main.sass')
 		.pipe($.sourcemaps.init())
-		.pipe($.sass({
-			'include css': true
-		}))
+		.pipe($.sass({}))
 		.pipe($.autoprefixer({
             browsers: ['last 4 versions']
         }))
