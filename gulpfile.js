@@ -7,6 +7,7 @@ global.$ = {
 	autoprefixer: require('gulp-autoprefixer'),
 	concat: require('gulp-concat'),
 	del: require('del'),
+	sourcemaps : require('gulp-sourcemaps'),	
 	cheerio: require('gulp-cheerio'),
 	replace: require('gulp-replace'),
 	svgmin: require('gulp-svgmin'),
